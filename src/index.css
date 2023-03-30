@@ -1,0 +1,248 @@
+:root{
+  /*Paleta de colores principales*/
+  --rojo--: #9a1922;   
+  --Blanco-hueso--: #ead2b0;  /*Btn menú*/
+  /*Paleta de colores secundarios*/
+ --Amarillo--: #fdc938;
+  --Blanco--: #ffffff;
+  --Negro--: #090a0a; 
+} 
+
+@font-face{
+  font-family: 'radgivare';
+  src: url("../Fonts/ardillah/Ardillah\ Kafi.ttf");
+}
+.text-radgivare{
+  font-family: 'radgivare';
+  font-size: 30px;
+}
+@font-face{
+  font-family: "louis-george";
+  src: url("../Fonts/louis-george-caf/Louis\ George\ Cafe\ Bold\ Italic.ttf");
+}
+.text-louis-george{
+  font-family: 'louis-george';
+  font-size: 20px;
+}
+@font-face{
+  font-family: "louis-george";
+  src: url("../Fonts/louis-george-caf/Louis-George-Cafe-Bold-Italic.ttf")
+}
+@font-face{
+  font-family: 'holyfat';
+  src: url(./Bootstrap_Cancat/Holyfat.ttf);
+}
+body{
+  margin: 0;
+  padding: 0;
+/*     background-color: #f3eadc7e; */
+/*   background-image: url(../Multimedia/bambu-fondo.png); */
+  /* background-image: url(../Multimedia/fondo-completo.jpg); */
+/*   background-size: auto;
+  height: auto; */
+  overflow-x: hidden;
+  background-color: rgba(253, 252, 250, 0.87);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.enviar{
+  background-color: #9a1922;
+  color: #ffffff;
+
+
+}
+.menu{
+  background-color: #ffffff;
+}
+.nav-link{
+  color: black;
+  background-color: #ead2b0 !important;
+  border-color: black;
+}
+.nav-link:hover{
+  background-color: #ead2b0 !important;
+  color: white;
+} 
+/*  .nav{
+  gap: 1rem;
+}  */
+.introduccion{
+  color: var(--Blanco--);
+  background-color: var(--rojo--) ;
+  padding: 2rem;
+}
+.titulo-baogan{
+  display: flex;
+  justify-content: center;
+  padding: 5rem 5rem 5rem 5rem;
+}
+/* .barra-menu{
+  border-radius: 10px;
+  width: 70%;
+  height: auto; 
+} */
+.baogan{
+
+  color: #ead2b0;
+  padding: 1rem 1rem 1rem 1rem;
+/*     display: flex;
+  align-items: center; */
+  background-color: #9a1922d7;
+ /*  border-radius: 14px; */
+}
+
+
+.baogan-proyecto{
+  color: var(--Negro--);
+  background-color: var(--Blanco-hueso--);
+  padding: 1rem;
+/*     width: 980px;
+  height: auto; */
+}
+.contenido-descubridores{
+  background-color: #9a1922;
+  color: white;
+  width: 1057px;
+  height: auto;
+}
+.img-mision{
+  width: 60px;
+  height: 50px;
+}
+.img-vision{
+  width: 50px;
+  height: 50px;
+}
+.mision{
+  padding: 5rem;
+}
+/* .card-body-1{
+  width: 500px;
+  height: 600px;
+} */
+.contenido-mision{
+  background-color: var(--Blanco-hueso--);
+  color: var(--Negro--);
+  padding: 2rem;
+  width: 500px;
+  height: auto;
+}
+.contenido-descubridores{
+  color: white;
+  background-color: #9a1922;
+  padding: 2rem;
+  width: 980px;
+  height: auto; 
+}
+.contenido-vision{
+  background-color: var(--Blanco-hueso--);
+  color: var(--Negro--);
+  padding: 2rem;
+  width: 500px;
+  height: auto;
+}
+.contenido-aventurate{
+  background-color: #ead2b0;
+  color: black;
+  padding: 2rem;
+/*    width: 1057px;
+  height: auto; */
+
+}
+.modal-bao{
+  background-color: #9a1922;
+
+  box-shadow: #fdc938 1px 2px 1rem;
+}
+.contenido-final{
+  background-color: #ead2b0;
+  color: black;
+  padding: 2rem;
+  width: auto;
+  height: auto;
+}
+.img-objetivo{
+  width: 50px;
+  height: 45px;
+}
+.btn-juego{
+  background-color: #9a1922;
+  color: #ead2b0;
+  border-radius: 20px;
+  width: 300px;
+  height: 80px;
+  
+}
+.carddes{
+  height: 15rem;
+  border-color: #fdc938;
+  box-shadow: #fdc938 1px 6px 2rem; 
+}
+/* .card-body{
+  height: 15rem;
+  border-color: #fdc938; */
+/*   box-shadow: #fdc938 1px 6px 2rem; */
+
+/*   width: 3rem; */
+/* } */
+.card-body:hover{
+  transition: all 0.08s ease;
+  filter: opacity(70%);
+}
+.modal-bao:hover{
+ /*  transition: all 0.08s ease;
+  filter: opacity(70%); */
+  border-bottom: #fdc938;
+  /* box-shadow: #fdc938 1px 6px 2rem; */
+  box-shadow: #090a0a 1px 2px 1rem;
+} 
+.pie-pagina{
+  background-color: #9a1922;
+  color: white;
+  height: 15rem;
+/*     color: white;
+  padding: 2rem;
+  height: auto; */
+}
+.boton-card{
+  width: 100%;
+}
+.logos{
+  width: 3rem;
+  height: 3rem;
+}
+/* .iconos{
+  padding-bottom: 2rem;
+} */
+.btn-footer:hover{
+  transition: all 0.08s ease;
+  filter: opacity(50%);
+}
+
+.ir-arriba{
+  animation: pelota 0.3s infinite alternate ease-out;
+  border-radius: 30px;
+  display: none;
+  padding: 20px;
+  background: #ead2b0;
+  font-size: 20px;
+  color: #090a0a;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+.flecha{
+  width: 25px;
+  height: 15px;
+}
+@keyframes pelota {
+  0% {
+      transform: translateY(20px);
+  }
+  100%{
+      transform: translateY(0);
+  }
+}
